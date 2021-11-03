@@ -1,29 +1,82 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+    <Editor />
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import Editor from './components/editor-edit/editor.vue'
 
-@Component({
-  components: {
-    HelloWorld,
-  },
-})
-export default class App extends Vue {}
+export default {
+    components: {
+        Editor
+    },
+
+    data() {
+        return {
+            //
+        }
+    },
+}
+
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style>
+
+.display-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-nowrap {
+    flex-flow: row nowrap;
+}
+
+.flex-row-wrap {
+    flex-flow: row wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-nowrap {
+    flex-flow: column nowrap;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-content-center {
+    justify-content: center;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.input-label {
+    width: 15%;
+}
+  
+.input-content {
+    width: 85%;
+}
+
+.field-heading {
+    margin: 5px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: var(--Cambria);
+}
+
+
+/* light-heading class is used in update views in admin panel*/
+
+.light-heading {
+    color: #BDBDBD;
 }
 </style>

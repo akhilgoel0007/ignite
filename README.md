@@ -1,4 +1,13 @@
-# ignite
+# Ignite - Vue Text Editor
+
+## Technologies used in Ignite:
+- Babel
+- Typescript
+- Sass (dart-css)
+- Testing
+    - E2E Testing - Cypress
+    - Unit Testing - Mocha + Chai
+
 
 ## Project setup
 ```
@@ -29,6 +38,3 @@ npm run test:e2e
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

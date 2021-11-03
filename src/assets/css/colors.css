@@ -1,0 +1,18 @@
+:root {
+    --White: #FFFFFF;
+    --Black: #000000;
+    --LightBlack: #212121;
+    --OrangeColor: #F57C00;
+
+    --HeaderHoverColor: #FFB74D;
+    --ServiceIconColor: #F57C00;
+    --ServiceBackgroundColor: var(--White);
+    --AppContainerBackgroundColor: #FFF3E0;
+    --AdminPanelBackgroundColor: #F5F5F5;
+
+    --ContactServiceIconColor: #E0E0E0;
+    --ContactServiceHeadingColor: #ADEFD1FF;;
+    --ContactServiceSubHeadingColor: var(--White);
+    --ContactServiceTimingColor: var(--White);
+    --ContactServiceBackgroundColor: #00203FFF;
+}

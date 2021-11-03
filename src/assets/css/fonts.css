@@ -1,0 +1,19 @@
+:root {
+    --CrimsonTextFont: 'Crimson Text', serif;
+    --AlegreyaFont: 'Alegreya', serif;
+    --OldStandardTTFont: 'Old Standard TT', serif;
+    --TitilliumWebFont: 'Titillium Web', sans-serif;
+    --Oswald: 'Oswald', sans-serif;
+    --Lobster: 'Lobster', cursive;
+    --AbrialFatFace: 'Abril Fatface', cursive;
+    --Arial: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --Cambria: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    --HeaderFont: var(--TitilliumWebFont);
+    --BannerHeaderFont: var(--CrimsonTextFont);
+    --ServiceHeadingFont: var(--CrimsonTextFont);
+    --ServiceInfoFont: var(--OldStandardTTFont);
+    --AppContainerInfoFont: var(--AlegreyaFont);
+    --LoginOrSignUpHeadingFont: var(--TitilliumWebFont);
+    --CreateAccountFont : var(--Cambria);
+}
