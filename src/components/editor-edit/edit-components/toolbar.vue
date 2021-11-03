@@ -333,10 +333,8 @@ export default {
 
 .editor-toolbar-container {
     margin-top: 35px; /* User depfined paramter. */
-
     width: 90%;
     height: 80px;
-    /* position: absolute; */
     display: flex;
     z-index: 1000;
     border-radius: 10px;
